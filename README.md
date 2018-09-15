@@ -20,3 +20,8 @@ $ python test.py
   ===================================================================
   Other Example at : http://qpleple.com/add-progress-bars-to-your-python-loops/
   ===================================================================
+
+
+Open Jupyter notebook in desiredn directory
+
+jupyter notebook --notebook-dir=/Users/yourname/folder1/folder2/
