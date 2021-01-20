@@ -1,0 +1,12 @@
+pip install pyinstaller
+pyinstaller --onefile -w program_name.py          		[dist->program-name->programe_name.exe]
+
+//--onefile flag for making only single exe file instead of many dependacy files in a folder.
+//-w flag to open without terminal
+
+to make an installer for windows for your client
+download https://nsis.sourceforge.io/Main_Page 
+install it ,select "based on zip file"
+make zip file of your dist folder "dist.zip"
+
+for linux do it on linux. windows cannot make distributable for linix
